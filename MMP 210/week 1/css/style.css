@@ -1,0 +1,28 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+h1 {
+    color:crimson;
+}
+
+h2 {
+    color:darkmagenta;
+}
+
+p {
+    color:deepskyblue;
+}
+
+nav li {
+    display:inline-block;  
+    list-style-type:none;
+    padding-right:10px;
+}
+
+a:hover {
+    color:aqua;
+    transition: color ls ease-in-out;
+    transition-delay:0;
+}
